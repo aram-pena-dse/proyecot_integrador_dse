@@ -1,0 +1,368 @@
+{
+  "id": "SRS",
+  "guid": "c851a234-41ea-467e-bf30-380ba204583c",
+  "name": "Software Requirements Specification",
+  "lastId": 460,
+  "lastChangedOn": "2018-10-12T15:51:59.226Z",
+  "lastChangedBy": {
+    "name": "Aram",
+    "email": "aram.pena.dse@uteq.edu.mx",
+    "company": "UTEQ"
+  },
+  "data": [
+    {
+      "id": "241",
+      "guid": "2b2cb70c-2fa1-491a-a710-d9c17b6c36ea",
+      "text": "<p><em>© Copyright by Eccam s.r.o. All rights reserved.</em></p>",
+      "status": "N/A"
+    },
+    {
+      "id": "338",
+      "guid": "f0acc0a3-2d47-485d-9003-46d1d8552b5d",
+      "heading": "Introduction",
+      "status": "N/A",
+      "children": [
+        {
+          "id": "436",
+          "guid": "12c0439b-2198-4c64-8b8b-9546896fc71e",
+          "heading": "Purpose",
+          "children": [
+            {
+              "id": "38",
+              "guid": "ef37db0e-73bd-4053-9070-e03fe8a98679",
+              "text": "<p>This is an example <em>Software Requirements Specification</em> (SRS) document describing functional and non-functional requirements for <a href=\"https://www.reqview.com/\">ReqView</a> tool.</p><p><strong>Note:</strong> The document is not complete.</p>",
+              "status": "N/A",
+              "discussion": [
+                {
+                  "comment": "<p>You can also update the document, add comments and new ideas, and then send it back to reqview@eccam.com.</p>",
+                  "date": "2014-02-26T12:35:26.944Z",
+                  "author": {
+                    "name": "Libor Bus",
+                    "email": "libor.bus@eccam.com",
+                    "company": "Eccam s.r.o."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "368",
+              "guid": "d9c278c7-dfb3-47c2-8225-a0ad3e76798e",
+              "text": "<p>This document is based on IEEE 830-1992 Recommended Practice for Software Requirements Specifications.</p>",
+              "status": "N/A"
+            }
+          ]
+        },
+        {
+          "id": "341",
+          "guid": "6ffcb3ab-2dac-462f-bd01-a886ff05775d",
+          "heading": "Intended Audience and Reading Suggestions",
+          "status": "N/A",
+          "children": [
+            {
+              "id": "369",
+              "guid": "73b1768d-9017-443d-91df-c7bb3ae47e5d",
+              "text": "<p>The target audience for this document are new ReqView users evaluating ReqView and learning how to gather and manage requirements in ReqView.</p>",
+              "status": "N/A"
+            }
+          ]
+        },
+        {
+          "id": "342",
+          "guid": "8657e9db-4dad-4096-8235-7334956f2446",
+          "heading": "Product Scope",
+          "status": "N/A",
+          "children": [
+            {
+              "id": "36",
+              "guid": "ee2fc508-5b4d-4232-9073-65614719eacf",
+              "text": "<p><em>ReqView Desktop</em> is <em>requirements gathering and management tool</em> for creation of structured requirement documents and for effective offline collaboration during requirements review or approval process.</p>",
+              "status": "N/A"
+            },
+            {
+              "id": "242",
+              "guid": "6e644da2-35f6-48b9-9402-ee818705ea0b",
+              "text": "<p>You can <em>create structured documents</em> describing requirements of your product by means of rich formatted text, embedded pictures and attached documents. In ReqView you see requirements as a structured table - which takes benefits of both word processor and spreadsheet approaches so that you can work easily with document tree structure and additional requirements attributes in columns.</p>",
+              "status": "N/A"
+            },
+            {
+              "id": "7",
+              "guid": "1886237a-84fe-473b-91f8-eba99aa824b5",
+              "text": "<p>You can effectively <em>collaborate during review / approval process</em><strong> </strong>within your project team or with your customers. ReqView allows you to discuss each requirement and, requirements status and tracks history of each changed requirement.</p>",
+              "status": "N/A"
+            },
+            {
+              "id": "373",
+              "guid": "8d407816-1c85-4b45-90f7-ff9338d54eb3",
+              "text": "<p>You can easily customize ReqView to <em>fit any requirements engineering process</em>.</p>",
+              "status": "N/A"
+            },
+            {
+              "id": "44",
+              "guid": "f21aa097-42dc-4506-a3e8-428666cfcdc3",
+              "text": "<p>You can <em>import/export a </em>requirement document from/to MS Word or Excel.</p>",
+              "status": "N/A"
+            },
+            {
+              "id": "371",
+              "guid": "4d40fb13-30ac-4b8e-8efb-9bef7794da81",
+              "text": "<p>You can <em>save ReqView documents</em> to your local filesystem and manage them under your preferred <em>version control system</em> (SVN, GIT, …) or share them encrypted via <em>Google Drive</em>.</p>",
+              "status": "N/A"
+            },
+            {
+              "id": "372",
+              "guid": "1c5bb41a-91bc-49d0-95ca-ea6462525d56",
+              "text": "<p>You can work with ReqView <em>offline</em>, ReqView does not send your personal or confidential project information to any server.</p>",
+              "status": "N/A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "443",
+      "guid": "22648d90-1547-4665-ba04-2e91e310a4b5",
+      "heading": "General Requirements",
+      "children": [
+        {
+          "id": "449",
+          "guid": "835bc78d-0733-4099-b10e-186a35d38c4a",
+          "text": "<p>The system shall generate a periodic square wave with variable duty cycle every 10KHz.</p>",
+          "links": {
+            "satisfaction": [
+              "NEEDS-70"
+            ]
+          }
+        },
+        {
+          "id": "450",
+          "guid": "70e08f68-e822-46c4-beac-528107fe30ba",
+          "text": "<p>The system shall use a DC motor at 12 volts with a tolerance of +/- 1 volt.</p>",
+          "links": {
+            "satisfaction": [
+              "NEEDS-71"
+            ]
+          }
+        },
+        {
+          "id": "451",
+          "guid": "3afe57d8-579d-42bd-b3c9-07e8f959a329",
+          "text": "<p>The system shall display in the integrated LCD display the following information:</p><ul><li>Motor speed in RPM's</li><li>Set point in RPM's</li><li>Duty cycle percent</li></ul>",
+          "links": {
+            "satisfaction": [
+              "NEEDS-72"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "444",
+      "guid": "29d8c37b-214f-48cc-9102-41fb75e72eaa",
+      "heading": "Specific Requirements",
+      "children": [
+        {
+          "id": "452",
+          "guid": "dfc5d6ab-2fc1-4d40-b369-d0fd00d7d83d",
+          "text": "<p>The system shall adjust the set point value by the read of the potenciometer.</p>",
+          "links": {
+            "satisfaction": [
+              "NEEDS-78"
+            ]
+          }
+        },
+        {
+          "id": "453",
+          "guid": "bcdd666d-0168-4727-b35e-6cf16d2323f6",
+          "text": "<p>The system shall use a hall efect sensor to measure the motor speed, considering 15 pulse by rotation.</p>",
+          "links": {
+            "satisfaction": [
+              "NEEDS-80"
+            ]
+          }
+        },
+        {
+          "id": "455",
+          "guid": "419e377c-791c-4fdc-9bd7-33b6e228394c",
+          "text": "<p>The System shall display the work cycle operation percentage for the PWM signal in the LCD</p>",
+          "links": {
+            "satisfaction": [
+              "NEEDS-81"
+            ]
+          }
+        },
+        {
+          "id": "454",
+          "guid": "09031ac5-3eb4-4cc3-b3ec-0879f2f84a27",
+          "text": "<p>The System shall work with a Dual H Bidge model DRV 8848-2A</p>",
+          "links": {
+            "satisfaction": [
+              "NEEDS-83"
+            ]
+          }
+        },
+        {
+          "id": "456",
+          "guid": "24c3aba0-b688-41ff-b594-692350e56af4",
+          "text": "<p>The system shall implement a PID control algorithm</p>",
+          "links": {
+            "satisfaction": [
+              "NEEDS-85"
+            ]
+          }
+        },
+        {
+          "id": "457",
+          "guid": "8c2633d0-9233-4edf-9fd4-9ebee48dc4c7",
+          "text": "<p>The system shall use a real time operating system.</p>",
+          "links": {
+            "satisfaction": [
+              "NEEDS-86"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "445",
+      "guid": "aed1d572-a6a1-4121-9762-4bdd21e4db86",
+      "heading": "Non Functional Requirements",
+      "children": [
+        {
+          "id": "446",
+          "guid": "18e6405b-af1f-4f31-baea-27361e51ca93",
+          "text": "<p>The system shall run at a maximum CPU throughput of 70%</p>",
+          "links": {
+            "satisfaction": [
+              "NEEDS-67"
+            ]
+          }
+        },
+        {
+          "id": "447",
+          "guid": "b0fb4f2b-bc97-4f7d-9ad5-6687d153c81f",
+          "text": "<p>The System shall track the main running tasks at a resolution of 10x TIC's</p>",
+          "links": {
+            "satisfaction": [
+              "NEEDS-68"
+            ]
+          }
+        },
+        {
+          "id": "448",
+          "guid": "e5e4282a-5160-4bde-ba54-568e9ae28540",
+          "text": "<p>The System shall use a LCD with proper characteristics to display information</p>",
+          "links": {
+            "satisfaction": [
+              "NEEDS-69"
+            ]
+          }
+        },
+        {
+          "id": "458",
+          "guid": "a7305e90-5a64-4670-be67-65e6a6c41da5",
+          "text": "<p>The System shall perform an initial diagnostic at system start for the ROM, buttons, power and ADC.</p>",
+          "links": {
+            "satisfaction": [
+              "NEEDS-88"
+            ]
+          }
+        },
+        {
+          "id": "459",
+          "guid": "b601b18e-9247-4bc2-9680-57016b19c389",
+          "text": "<p>The System shall be implemented with a CCCC under 19 points</p>",
+          "links": {
+            "satisfaction": [
+              "NEEDS-89"
+            ]
+          }
+        },
+        {
+          "id": "460",
+          "guid": "3ec0793f-daad-4acd-9e87-e7f90e38b623",
+          "text": "<p>The System shall execute the main tasks at the mayor frame rate</p>",
+          "links": {
+            "satisfaction": [
+              "NEEDS-90"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": {
+    "status": {
+      "name": "Status",
+      "readOnly": false,
+      "type": "enum",
+      "values": [
+        {
+          "key": "N/A"
+        },
+        {
+          "key": "Draft"
+        },
+        {
+          "key": "Accepted"
+        },
+        {
+          "key": "In Progress"
+        },
+        {
+          "key": "Rejected"
+        },
+        {
+          "key": "Implemented"
+        }
+      ]
+    }
+  },
+  "view": {
+    "columns": [
+      {
+        "columnId": "id",
+        "hidden": false,
+        "width": 124
+      },
+      {
+        "columnId": "description",
+        "hidden": false,
+        "width": 643
+      },
+      {
+        "columnId": "attributes",
+        "hidden": true,
+        "width": 300
+      },
+      {
+        "guid": "9271e889-3ceb-4c0c-b5c3-2aa7d4af997d",
+        "hidden": true,
+        "label": "Verified by",
+        "template": "{{#eachInlinkWith type=\"verification\"}}\n  <div style=\"margin-top:5px; margin-bottom:5px; padding-left:15px; text-indent: -5px;\"><i class=\"icon-li icon-caret-left\"></i> <em>{{docObjId}}:</em><br> {{shortDescription  maxLength=80}}</div>\n{{/eachInlinkWith}}",
+        "width": 162
+      },
+      {
+        "guid": "0bdf8978-566b-4397-b531-0c02dd964cf4",
+        "hidden": false,
+        "label": "Satisfies",
+        "template": "{{#eachOutlinkWith type=\"satisfaction\"}}\n  <div style=\"margin-top:5px; margin-bottom:5px; padding-left:15px; text-indent: -5px;\"><i class=\"icon-li icon-caret-left\"></i> <em>{{#hyperlink}}{{docObjId}}{{/hyperlink}}:<br></em> {{shortDescription  maxLength=80}}</div>\n{{/eachOutlinkWith}}",
+        "width": 244
+      },
+      {
+        "attribute": "status",
+        "columnId": "status",
+        "hidden": false,
+        "width": 162
+      },
+      {
+        "columnId": "links",
+        "hidden": true,
+        "width": 252
+      },
+      {
+        "columnId": "discussion",
+        "hidden": true
+      }
+    ]
+  }
+}

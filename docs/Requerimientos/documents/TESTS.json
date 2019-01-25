@@ -1,0 +1,142 @@
+{
+  "id": "TESTS",
+  "guid": "c29aae4e-f6f1-491c-a638-50000a2d2b58",
+  "name": "Verification Tests",
+  "lastId": 25,
+  "createdOn": "2016-01-14T03:04:15.797Z",
+  "createdBy": {
+    "name": "Libor Bus",
+    "email": "",
+    "company": "Eccam s.r.o."
+  },
+  "lastChangedOn": "2018-10-12T15:52:38.317Z",
+  "lastChangedBy": {
+    "name": "Aram",
+    "email": "aram.pena.dse@uteq.edu.mx",
+    "company": "UTEQ"
+  },
+  "data": [
+    {
+      "id": "25",
+      "guid": "b0224dda-b913-4cea-97a0-922103ba8927",
+      "text": "<p><em>© Copyright by Eccam s.r.o. All rights reserved.</em></p>"
+    },
+    {
+      "id": "1",
+      "guid": "26f82d1d-0700-42f0-a50e-eb7857e5e4d8",
+      "heading": "Introduction",
+      "links": {
+        "reference": [
+          "SRS-338"
+        ]
+      },
+      "children": [
+        {
+          "id": "23",
+          "guid": "180b45cf-4834-4b0c-861b-cbd70eddb753",
+          "text": "<p>This is an example test cases specification for <a href=\"https://www.reqview.com/\">ReqView</a> tool.</p><p><strong>Note:</strong> The document is not complete.</p>"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "guid": "845a4ec8-108d-4933-b0fa-32d2f6c9759f",
+      "heading": "Test Cases"
+    }
+  ],
+  "attributes": {
+    "data": {
+      "name": "Test Data",
+      "type": "xhtml"
+    },
+    "expected": {
+      "name": "Expected Result",
+      "type": "xhtml"
+    },
+    "postcondition": {
+      "name": "Postcondition",
+      "type": "xhtml"
+    },
+    "precondition": {
+      "name": "Precondition",
+      "type": "xhtml"
+    },
+    "status": {
+      "name": "Status",
+      "type": "enum",
+      "values": [
+        {
+          "key": "Draft"
+        },
+        {
+          "key": "Approved"
+        },
+        {
+          "key": "Passed"
+        },
+        {
+          "key": "Failed"
+        }
+      ]
+    }
+  },
+  "view": {
+    "columns": [
+      {
+        "columnId": "id",
+        "hidden": false,
+        "width": 112
+      },
+      {
+        "columnId": "description",
+        "hidden": false,
+        "width": 430
+      },
+      {
+        "columnId": "attributes",
+        "hidden": true,
+        "width": 300
+      },
+      {
+        "columnId": "discussion",
+        "hidden": true,
+        "width": 300
+      },
+      {
+        "columnId": "links",
+        "hidden": true,
+        "width": 233
+      },
+      {
+        "attribute": "status",
+        "columnId": "status",
+        "hidden": false,
+        "width": 124
+      },
+      {
+        "attribute": "precondition",
+        "columnId": "precondition",
+        "hidden": false,
+        "width": 198
+      },
+      {
+        "attribute": "data",
+        "columnId": "data",
+        "hidden": false,
+        "width": 194
+      },
+      {
+        "attribute": "expected",
+        "columnId": "expected",
+        "hidden": false,
+        "width": 298
+      },
+      {
+        "attribute": "postcondition",
+        "columnId": "postcondition",
+        "hidden": false,
+        "width": 225
+      }
+    ]
+  }
+}

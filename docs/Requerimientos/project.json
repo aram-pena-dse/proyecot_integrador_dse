@@ -1,0 +1,38 @@
+{
+  "id": "REQVIEW",
+  "lastChangedOn": "2019-01-25T16:45:40.394Z",
+  "documents": [
+    "INF.json",
+    "NEEDS.json",
+    "SRS.json",
+    "HSR.json",
+    "TESTS.json",
+    "RISKS.json"
+  ],
+  "traceability": {
+    "mitigation": {
+      "name": "Mitigation",
+      "source": "Mitigates",
+      "target": "Is mitigated by"
+    },
+    "reference": {
+      "name": "Reference",
+      "source": "References",
+      "target": "Is referenced by"
+    },
+    "satisfaction": {
+      "name": "Satisfaction",
+      "source": "Satisfies",
+      "target": "Is satisfied by"
+    },
+    "verification": {
+      "name": "Verification",
+      "source": "Verifies",
+      "target": "Is verified by"
+    }
+  },
+  "metadata": {
+    "format": "2.3",
+    "saveHistory": false
+  }
+}

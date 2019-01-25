@@ -1,0 +1,210 @@
+{
+  "id": "RISKS",
+  "guid": "d1767ebc-7332-4fa9-bdc7-a8ad00ad2c83",
+  "name": "Failure Mode and Effects Analysis",
+  "lastId": 26,
+  "createdOn": "2016-06-16T13:26:33.494Z",
+  "createdBy": {
+    "name": "Libor Dev",
+    "email": "dev@eccam.com",
+    "company": "Eccam s.r.o."
+  },
+  "lastChangedOn": "2018-10-12T15:53:00.820Z",
+  "lastChangedBy": {
+    "name": "Aram",
+    "email": "aram.pena.dse@uteq.edu.mx",
+    "company": "UTEQ"
+  },
+  "data": [
+    {
+      "id": "10",
+      "guid": "f38197a5-9d15-4a0b-bb95-e684a6e3acad",
+      "text": "<p><em>© Copyright by Eccam s.r.o. All rights reserved.</em></p>",
+      "type": "Information"
+    },
+    {
+      "id": "1",
+      "guid": "132dcab5-8b8b-46c0-ab37-e3752aab1331",
+      "heading": "Introduction",
+      "type": "Section",
+      "children": [
+        {
+          "id": "5",
+          "guid": "a85e7603-54d0-41ab-aa96-fd4f20dc2720",
+          "heading": "Purpose",
+          "text": "<p>This is an example evaluation of project risks related to development of <a href=\"https://www.reqview.com/\">ReqView</a> tool using <em>failure mode and effects analysis</em> (FMEA).</p><p><strong>Note: </strong>The document is not complete.</p>",
+          "type": "Information"
+        },
+        {
+          "id": "11",
+          "guid": "f21cd56d-8e28-43d9-be6a-a94aafc20fa8",
+          "heading": "Instructions",
+          "text": "<p>Describe failures and organize them into document sections by functions, items or process step.</p><ul></ul>",
+          "type": "Information",
+          "children": [
+            {
+              "id": "20",
+              "guid": "ff4a6cdd-9d3f-486e-85fe-533137daf1a2",
+              "text": "<p>For each failure mode enter a row and fill in following information in the corresponding column:</p><ul><li><strong>Description</strong> - Describe the failure mode</li><li><strong>Type</strong> - Set to \"Risk\"</li><li><strong>Potential Effects</strong> - Describe potential impact of the failure on the system output or system users.</li><li><strong>Potential Causes</strong> - Describe the causes of the failure.</li><li><strong>Detection Mode</strong> - Describe what are the existing design controls detecting the failure or preventing the failure from occurring.</li><li><strong>SEV</strong> - Rate the current failure severity by a number 1 (least severe) to 10 (most severe).</li><li><strong>PROB</strong> - Rate the current failure probability by a number 1 (least likely) to 10 (most likely).</li><li><strong>DET</strong> - Rate the current failure detectability by a number 1 (best detectable) to 10 (least detectable).</li><li><strong>RPN</strong> - Calculate the current Risk Priority Number as <em>RPN = SEV * PROB * DET</em>.</li></ul>",
+              "type": "Information"
+            },
+            {
+              "id": "21",
+              "guid": "a718c6dc-649e-436e-9a4a-369d88e82ef1",
+              "text": "<p>For each failure mode which needs to be mitigated identify corrective actions reducing the occurrence of the cause or improving the detection. Enter each action as a child row and fill in following information in the corresponding column:</p><ul><li><strong>Description</strong> - Describe the actions for reducing the occurrence of the cause or improving the detection.</li><li><strong>Type</strong> - Set to \"Action\" value</li><li><strong>Responsibility</strong> - Name a responsible person for the recommended action.</li><li><strong>Target Date</strong> - Set a target date for the recommended action.</li><li><strong>SEV</strong> - Rate the new failure severity by a number 1 (least severe) to 10 (most severe).</li><li><strong>PROB</strong> - Rate the new failure probability by a number 1 (least likely) to 10 (most likely).</li><li><strong>DET</strong> - Rate the new failure detectability by a number 1 (best detectable) to 10 (least detectable).</li><li><strong>RPN</strong> - Calculate the new Risk Priority Number as <em>RPN = SEV * PROB * DET</em>.</li></ul>",
+              "type": "Information"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "guid": "226aa626-520e-47a1-b4ed-3981c7d2617c",
+      "heading": "Risks",
+      "type": "Section"
+    }
+  ],
+  "attributes": {
+    "causes": {
+      "name": "Potential Causes",
+      "type": "xhtml"
+    },
+    "detectability": {
+      "name": "DET",
+      "type": "int"
+    },
+    "detection": {
+      "name": "Detection Mode",
+      "type": "xhtml"
+    },
+    "effects": {
+      "name": "Potential Effects",
+      "type": "xhtml"
+    },
+    "probability": {
+      "name": "PROB",
+      "type": "int"
+    },
+    "responsibility": {
+      "name": "Responsibility",
+      "type": "string"
+    },
+    "severity": {
+      "name": "SEV",
+      "type": "int"
+    },
+    "targetDate": {
+      "name": "Target Date",
+      "type": "date"
+    },
+    "type": {
+      "name": "Type",
+      "type": "enum",
+      "values": [
+        {
+          "key": "Risk"
+        },
+        {
+          "key": "Action"
+        },
+        {
+          "key": "Section"
+        },
+        {
+          "key": "Information"
+        }
+      ]
+    }
+  },
+  "view": {
+    "columns": [
+      {
+        "columnId": "id",
+        "hidden": false,
+        "width": 94
+      },
+      {
+        "columnId": "description",
+        "hidden": false,
+        "width": 414
+      },
+      {
+        "columnId": "attributes",
+        "hidden": true,
+        "width": 300
+      },
+      {
+        "columnId": "discussion",
+        "hidden": true,
+        "width": 300
+      },
+      {
+        "columnId": "links",
+        "hidden": true,
+        "width": 300
+      },
+      {
+        "attribute": "type",
+        "columnId": "type",
+        "hidden": false,
+        "width": 105
+      },
+      {
+        "attribute": "effects",
+        "columnId": "effects",
+        "hidden": false,
+        "width": 210
+      },
+      {
+        "attribute": "causes",
+        "columnId": "causes",
+        "hidden": false,
+        "width": 192
+      },
+      {
+        "attribute": "detection",
+        "columnId": "detection",
+        "hidden": false,
+        "width": 200
+      },
+      {
+        "attribute": "responsibility",
+        "columnId": "responsibility",
+        "hidden": false,
+        "width": 142
+      },
+      {
+        "attribute": "targetDate",
+        "columnId": "targetDate",
+        "hidden": false,
+        "width": 121
+      },
+      {
+        "attribute": "severity",
+        "columnId": "severity",
+        "hidden": false,
+        "width": 78
+      },
+      {
+        "attribute": "probability",
+        "columnId": "probability",
+        "hidden": false,
+        "width": 78
+      },
+      {
+        "attribute": "detectability",
+        "columnId": "detectability",
+        "hidden": false,
+        "width": 70
+      },
+      {
+        "guid": "74b9b882-3a3e-4f19-891e-c993faa3a574",
+        "hidden": false,
+        "label": "RPN",
+        "template": "{{#if (eval (eval type \"==\" \"Risk\") \"||\" (eval type \"==\" \"Action\"))}}\n<div style=\"margin-top:7px;\">{{eval (eval detectability \"*\" probability) \"*\" severity}}</div>\n{{/if}}",
+        "width": 40
+      }
+    ]
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "id": "INF",
+  "guid": "5d2204d5-453f-430a-b55d-9dd5e3da5246",
+  "name": "Information",
+  "lastId": 19,
+  "createdOn": "2018-08-19T16:59:43.883Z",
+  "createdBy": {
+    "name": "Libor Bus",
+    "email": "libor.bus@eccam.com",
+    "company": "Eccam s.r.o."
+  },
+  "lastChangedOn": "2018-10-12T15:12:02.383Z",
+  "lastChangedBy": {
+    "name": "Aram",
+    "email": "aram.pena.dse@uteq.edu.mx",
+    "company": "UTEQ"
+  },
+  "data": [
+    {
+      "id": "2",
+      "guid": "45659c99-3924-4849-a8ef-805cecce2ba5",
+      "text": "<p><em>© Copyright by Eccam s.r.o. All rights reserved.</em></p>",
+      "attachments": [
+        "INF-2_1_reqview_icon.png"
+      ]
+    },
+    {
+      "id": "1",
+      "guid": "cb0dfa58-adc6-42e9-beea-5c3541a0cf29",
+      "heading": "Introduction",
+      "children": [
+        {
+          "id": "10",
+          "guid": "43f1b471-570f-40cb-aeed-d230beeb414b",
+          "heading": "Purpose",
+          "children": [
+            {
+              "id": "13",
+              "guid": "ae2f412c-521b-4fd5-94b4-34d227352b64",
+              "text": "<p>This is a <em>Demo Project</em> illustrating how you can define and manage requirements for a SW development project in ReqView.</p>"
+            },
+            {
+              "id": "12",
+              "guid": "0d034daa-b479-49a3-b9c8-94726c550721",
+              "text": "<p>This project describes user needs, SW requirements, verification tests and risks for <a href=\"https://www.reqview.com/\">ReqView</a> tool itself.</p>"
+            }
+          ]
+        },
+        {
+          "id": "11",
+          "guid": "2e31f9b5-d2f7-4d42-900a-0dc9e60629fd",
+          "heading": "Intended Audience",
+          "children": [
+            {
+              "id": "14",
+              "guid": "f9b4cec7-e383-4bed-8496-3c6793f4056f",
+              "text": "<p>The target audience for this project are new ReqView users evaluating ReqView and learning how to gather and manage requirements in ReqView.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "guid": "37c768e3-641f-4989-bb46-1260e4edc7a8",
+      "heading": "Documents",
+      "children": [
+        {
+          "id": "5",
+          "guid": "100123cb-1d16-419f-a305-90bf4524ee86",
+          "heading": "NEEDS: User Needs",
+          "text": "<p><em>NEEDS</em> document describes the highest level business needs as <em>user stories</em> and <em>constraints</em>.</p>"
+        },
+        {
+          "id": "6",
+          "guid": "56158b1c-4c64-4a44-b048-c7b402c96df3",
+          "heading": "SRS: Software Requirements Specification",
+          "text": "<p><em>SRS </em>document<em> </em>is a Software Requirements Specification describing <em>functional</em> and <em>nonfunctional requirements </em>derived from the user stories.</p>"
+        },
+        {
+          "id": "7",
+          "guid": "2bfcd9e6-3de4-4495-b27d-9f851f088edf",
+          "heading": "TESTS: Verification Tests",
+          "text": "<p><em>TESTS</em> document describes <em>test cases</em> verifying specific aspects software features.</p>",
+          "links": {
+            "reference": [
+              "TESTS-2"
+            ]
+          }
+        },
+        {
+          "id": "8",
+          "guid": "c87fe938-b654-4b0c-85da-e1b949d13dcb",
+          "heading": "RISKS: Failure Mode and Effects Analysis",
+          "text": "<p><em>RISKS</em> document evaluates project risks using <em>failure mode and effects analysis</em> (FMEA).</p>",
+          "links": {
+            "reference": [
+              "RISKS-2"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "guid": "dc3049f9-b025-4e6d-ac12-85e9e90b4e77",
+      "heading": "Traceability",
+      "children": [
+        {
+          "id": "9",
+          "guid": "c34f63fa-d24d-48dc-992e-51581da51043",
+          "attachments": [
+            "INF-9_1_Project Traceability Diagram.png"
+          ]
+        },
+        {
+          "id": "16",
+          "guid": "69884407-27d6-40ea-9a43-362c075a2441",
+          "text": "<p><em>Satisfaction links</em> lead from downstream SW requirements to the related highest level user needs (M:N).</p>"
+        },
+        {
+          "id": "17",
+          "guid": "ee02f69d-0255-43e2-9cb6-4ecfe30566f3",
+          "text": "<p><em>Verification links</em> lead from a test case to the related SW requirements (M:N).</p>"
+        }
+      ]
+    }
+  ],
+  "attributes": {
+  },
+  "view": {
+    "columns": [
+      {
+        "columnId": "id",
+        "hidden": false,
+        "width": 119
+      },
+      {
+        "columnId": "description",
+        "hidden": false,
+        "width": 711
+      },
+      {
+        "columnId": "attributes",
+        "hidden": true,
+        "width": 300
+      },
+      {
+        "columnId": "discussion",
+        "hidden": true,
+        "width": 303
+      },
+      {
+        "columnId": "links",
+        "hidden": false,
+        "width": 386
+      }
+    ]
+  }
+}
