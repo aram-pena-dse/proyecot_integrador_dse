@@ -172,7 +172,7 @@
         "email": "libor.bus@eccam.com",
         "company": "Eccam s.r.o."
       },
-      "lastChangedOn": "2018-10-12T15:51:30.725Z",
+      "lastChangedOn": "2019-01-25T15:53:53.766Z",
       "lastChangedBy": {
         "name": "Aram",
         "email": "aram.pena.dse@uteq.edu.mx",
@@ -212,21 +212,25 @@
             {
               "id": "70",
               "guid": "fb095747-9981-412b-80bc-4a0214fe7adf",
-              "text": "<p>Se controlará la velocidad de un motor de corriente directa mediante la aplicación de una señal cuadrada que varía en su ancho de pulso y cuya frecuencia de trabajo será fija fo=10KHz.</p>"
+              "text": "<p>Se controlará la velocidad de un motor de corriente directa mediante la aplicación de una señal cuadrada que varía en su ancho de pulso y cuya frecuencia de trabajo será fija fo=10KHz.</p>",
+              "type": "User Story"
             },
             {
               "id": "71",
               "guid": "c89a87a2-a0a8-48aa-8e9e-4cfa71444717",
-              "text": "<p>El voltaje de alimentación del motor será de 12 Vcd. Nota: El tren de pulsos es una señal cuadrada de frecuencia variable con voltaje máximo de x Vcd descrita en la tabla 1.</p>"
+              "text": "<p>El voltaje de alimentación del motor será de 12 Vcd. Nota: El tren de pulsos es una señal cuadrada de frecuencia variable con voltaje máximo de x Vcd descrita en la tabla 1.</p>",
+              "type": "User Story"
             },
             {
               "id": "72",
               "guid": "a361dba1-b23f-4e5a-9f5a-5625c302cc2c",
               "text": "<p>La pantalla LCD o interfaz gráfica deberá mostrar la velocidad del motor y SetPoint (ambos en RPM’s); así como el porcentaje de trabajo de la señal cuadrada. Note: Se usará la siguiente tipografía para los mensajes. Figura 2</p>",
+              "type": "User Story",
               "children": [
                 {
                   "id": "73",
                   "guid": "14f20032-4397-42d0-bf92-18629c48b345",
+                  "type": "Information",
                   "attachments": [
                     "NEEDS-73_1_Captura de pantalla 2018-10-06 a la(s) 10.22.53.png"
                   ]
