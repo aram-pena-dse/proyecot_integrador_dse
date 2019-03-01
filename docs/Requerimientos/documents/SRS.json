@@ -1,9 +1,9 @@
 {
   "id": "SRS",
   "guid": "c851a234-41ea-467e-bf30-380ba204583c",
-  "name": "Software Requirements Specification",
+  "name": "System Requirements Specification",
   "lastId": 460,
-  "lastChangedOn": "2018-10-12T15:51:59.226Z",
+  "lastChangedOn": "2019-01-25T17:57:37.780Z",
   "lastChangedBy": {
     "name": "Aram",
     "email": "aram.pena.dse@uteq.edu.mx",
@@ -13,14 +13,12 @@
     {
       "id": "241",
       "guid": "2b2cb70c-2fa1-491a-a710-d9c17b6c36ea",
-      "text": "<p><em>© Copyright by Eccam s.r.o. All rights reserved.</em></p>",
-      "status": "N/A"
+      "text": "<p><em>© Copyright by Eccam s.r.o. All rights reserved.</em></p>"
     },
     {
       "id": "338",
       "guid": "f0acc0a3-2d47-485d-9003-46d1d8552b5d",
       "heading": "Introduction",
-      "status": "N/A",
       "children": [
         {
           "id": "436",
@@ -127,6 +125,7 @@
           "id": "449",
           "guid": "835bc78d-0733-4099-b10e-186a35d38c4a",
           "text": "<p>The system shall generate a periodic square wave with variable duty cycle every 10KHz.</p>",
+          "status": "Accepted",
           "links": {
             "satisfaction": [
               "NEEDS-70"
@@ -137,6 +136,7 @@
           "id": "450",
           "guid": "70e08f68-e822-46c4-beac-528107fe30ba",
           "text": "<p>The system shall use a DC motor at 12 volts with a tolerance of +/- 1 volt.</p>",
+          "status": "Accepted",
           "links": {
             "satisfaction": [
               "NEEDS-71"
@@ -147,6 +147,7 @@
           "id": "451",
           "guid": "3afe57d8-579d-42bd-b3c9-07e8f959a329",
           "text": "<p>The system shall display in the integrated LCD display the following information:</p><ul><li>Motor speed in RPM's</li><li>Set point in RPM's</li><li>Duty cycle percent</li></ul>",
+          "status": "Accepted",
           "links": {
             "satisfaction": [
               "NEEDS-72"
@@ -164,6 +165,7 @@
           "id": "452",
           "guid": "dfc5d6ab-2fc1-4d40-b369-d0fd00d7d83d",
           "text": "<p>The system shall adjust the set point value by the read of the potenciometer.</p>",
+          "status": "Accepted",
           "links": {
             "satisfaction": [
               "NEEDS-78"
@@ -174,6 +176,7 @@
           "id": "453",
           "guid": "bcdd666d-0168-4727-b35e-6cf16d2323f6",
           "text": "<p>The system shall use a hall efect sensor to measure the motor speed, considering 15 pulse by rotation.</p>",
+          "status": "Accepted",
           "links": {
             "satisfaction": [
               "NEEDS-80"
@@ -184,6 +187,7 @@
           "id": "455",
           "guid": "419e377c-791c-4fdc-9bd7-33b6e228394c",
           "text": "<p>The System shall display the work cycle operation percentage for the PWM signal in the LCD</p>",
+          "status": "Accepted",
           "links": {
             "satisfaction": [
               "NEEDS-81"
@@ -194,6 +198,7 @@
           "id": "454",
           "guid": "09031ac5-3eb4-4cc3-b3ec-0879f2f84a27",
           "text": "<p>The System shall work with a Dual H Bidge model DRV 8848-2A</p>",
+          "status": "Accepted",
           "links": {
             "satisfaction": [
               "NEEDS-83"
@@ -204,6 +209,7 @@
           "id": "456",
           "guid": "24c3aba0-b688-41ff-b594-692350e56af4",
           "text": "<p>The system shall implement a PID control algorithm</p>",
+          "status": "Accepted",
           "links": {
             "satisfaction": [
               "NEEDS-85"
@@ -214,6 +220,7 @@
           "id": "457",
           "guid": "8c2633d0-9233-4edf-9fd4-9ebee48dc4c7",
           "text": "<p>The system shall use a real time operating system.</p>",
+          "status": "Accepted",
           "links": {
             "satisfaction": [
               "NEEDS-86"
@@ -231,6 +238,7 @@
           "id": "446",
           "guid": "18e6405b-af1f-4f31-baea-27361e51ca93",
           "text": "<p>The system shall run at a maximum CPU throughput of 70%</p>",
+          "status": "Accepted",
           "links": {
             "satisfaction": [
               "NEEDS-67"
@@ -241,6 +249,7 @@
           "id": "447",
           "guid": "b0fb4f2b-bc97-4f7d-9ad5-6687d153c81f",
           "text": "<p>The System shall track the main running tasks at a resolution of 10x TIC's</p>",
+          "status": "Accepted",
           "links": {
             "satisfaction": [
               "NEEDS-68"
@@ -251,6 +260,7 @@
           "id": "448",
           "guid": "e5e4282a-5160-4bde-ba54-568e9ae28540",
           "text": "<p>The System shall use a LCD with proper characteristics to display information</p>",
+          "status": "Accepted",
           "links": {
             "satisfaction": [
               "NEEDS-69"
@@ -261,6 +271,7 @@
           "id": "458",
           "guid": "a7305e90-5a64-4670-be67-65e6a6c41da5",
           "text": "<p>The System shall perform an initial diagnostic at system start for the ROM, buttons, power and ADC.</p>",
+          "status": "Accepted",
           "links": {
             "satisfaction": [
               "NEEDS-88"
@@ -271,6 +282,7 @@
           "id": "459",
           "guid": "b601b18e-9247-4bc2-9680-57016b19c389",
           "text": "<p>The System shall be implemented with a CCCC under 19 points</p>",
+          "status": "Accepted",
           "links": {
             "satisfaction": [
               "NEEDS-89"
@@ -281,6 +293,7 @@
           "id": "460",
           "guid": "3ec0793f-daad-4acd-9e87-e7f90e38b623",
           "text": "<p>The System shall execute the main tasks at the mayor frame rate</p>",
+          "status": "Accepted",
           "links": {
             "satisfaction": [
               "NEEDS-90"

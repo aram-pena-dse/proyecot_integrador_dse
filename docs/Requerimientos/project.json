@@ -1,11 +1,12 @@
 {
   "id": "REQVIEW",
-  "lastChangedOn": "2019-01-25T16:45:40.394Z",
+  "lastChangedOn": "2019-01-25T17:59:14.733Z",
   "documents": [
     "INF.json",
     "NEEDS.json",
     "SRS.json",
-    "HSR.json",
+    "SR.json",
+    "HR.json",
     "TESTS.json",
     "RISKS.json"
   ],

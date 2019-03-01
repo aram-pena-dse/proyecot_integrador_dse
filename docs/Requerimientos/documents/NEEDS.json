@@ -9,7 +9,7 @@
     "email": "libor.bus@eccam.com",
     "company": "Eccam s.r.o."
   },
-  "lastChangedOn": "2019-01-25T15:56:15.125Z",
+  "lastChangedOn": "2019-01-25T17:47:09.962Z",
   "lastChangedBy": {
     "name": "Aram",
     "email": "aram.pena.dse@uteq.edu.mx",
@@ -32,12 +32,13 @@
           "id": "46",
           "guid": "8220bf57-23a7-4195-88ab-a807d92db580",
           "text": "<p>This is an example <em>User Needs</em> document<em> </em>describing the highest level business needs for development of <a href=\"https://www.reqview.com/\">ReqView</a> tool.</p><p><strong>Note:</strong> The document is not complete.</p>",
-          "type": "Section"
+          "type": "Information"
         },
         {
           "id": "63",
           "guid": "96e321c3-164d-48b2-9f5f-296900274e3a",
-          "text": "<p>The business needs are described as user stories based on “As a [user role], I want [some goal] so that [some reason].” template.</p>"
+          "text": "<p>The business needs are described as user stories based on “As a [user role], I want [some goal] so that [some reason].” template.</p>",
+          "type": "Information"
         }
       ]
     },
@@ -45,17 +46,20 @@
       "id": "64",
       "guid": "8eb4b095-5182-4068-8cfd-135c9cebf3a8",
       "heading": "General Requirements",
+      "type": "Section",
       "children": [
         {
           "id": "70",
           "guid": "fb095747-9981-412b-80bc-4a0214fe7adf",
           "text": "<p>Se controlará la velocidad de un motor de corriente directa mediante la aplicación de una señal cuadrada que varía en su ancho de pulso y cuya frecuencia de trabajo será fija fo=10KHz.</p>",
+          "status": "Accepted",
           "type": "User Story"
         },
         {
           "id": "71",
           "guid": "c89a87a2-a0a8-48aa-8e9e-4cfa71444717",
           "text": "<p>El voltaje de alimentación del motor será de 12 Vcd. Nota: El tren de pulsos es una señal cuadrada de frecuencia variable con voltaje máximo de x Vcd descrita en la tabla 1.</p>",
+          "status": "Accepted",
           "type": "User Story"
         },
         {
@@ -81,20 +85,25 @@
       "id": "65",
       "guid": "4a625a07-4313-4c01-bc9d-901b63895a28",
       "heading": "Specific Requirements",
+      "type": "Section",
       "children": [
         {
           "id": "74",
           "guid": "d3e17fd4-bec3-4b9e-813f-474b779d156b",
           "heading": "Input",
+          "type": "Section",
           "children": [
             {
               "id": "78",
               "guid": "1104352e-b4ab-4426-8f23-4052da867989",
               "text": "<p>El valor de referencia o “SetPoint” (velocidad deseada) deberá estar dado por el ajuste de una resistencia variable (potenciómetro). Nota: El ajuste del potenciómetro deberá estar conectado como se muestra en la figura 1.</p>",
+              "status": "Accepted",
+              "type": "User Story",
               "children": [
                 {
                   "id": "79",
                   "guid": "ddbb6546-186d-4480-a884-7bf25d48919d",
+                  "type": "Information",
                   "attachments": [
                     "NEEDS-79_1_Captura de pantalla 2018-10-06 a la(s) 10.12.38.png"
                   ]
@@ -104,7 +113,9 @@
             {
               "id": "80",
               "guid": "aa2225f8-e94d-4038-bc4f-81e35548a804",
-              "text": "<p>&nbsp;</p><p>Mediante el uso de un sensor de efecto hall acoplado al rotor del motor se deberá medir la velocidad del motor el cual proveerá 15 pulsos cada que se complete una vuelta completa (así, a mayor velocidad del motor, mayor será el número de pulsos leídos, mientras que a menor velocidad, menor será el número de pulsos).</p>"
+              "text": "<p>&nbsp;</p><p>Mediante el uso de un sensor de efecto hall acoplado al rotor del motor se deberá medir la velocidad del motor el cual proveerá 15 pulsos cada que se complete una vuelta completa (así, a mayor velocidad del motor, mayor será el número de pulsos leídos, mientras que a menor velocidad, menor será el número de pulsos).</p>",
+              "status": "Accepted",
+              "type": "User Story"
             }
           ]
         },
@@ -112,15 +123,19 @@
           "id": "75",
           "guid": "867e5171-8a26-4010-82b5-822596099f4c",
           "heading": "Output",
+          "type": "Section",
           "children": [
             {
               "id": "81",
               "guid": "4e71efb1-a078-4404-aba4-77190be5bf60",
               "text": "<p>El porcentaje de operación deberá ser indicado en la pantalla o display (ver sección 2.1. Display) de acuerdo a la tabla en la página 9 del documento de especificaciones.</p>",
+              "status": "Accepted",
+              "type": "User Story",
               "children": [
                 {
                   "id": "82",
                   "guid": "3fdbdb55-3da5-4663-8be3-5137c8d2775a",
+                  "type": "Information",
                   "attachments": [
                     "NEEDS-82_1_Captura de pantalla 2018-10-06 a la(s) 10.30.36.png"
                   ]
@@ -131,10 +146,13 @@
               "id": "83",
               "guid": "9ef7e0c4-1051-4189-a7b8-a33f787d1078",
               "text": "<p>El motor del ventilador funcionará con el siguiente puente H dual: DRV8848-2A Dual H-Bridge Motor Driver (PWM Control). Cuyo comportamiento esta definido en la página 7 del documento de especificaciones.</p>",
+              "status": "Accepted",
+              "type": "User Story",
               "children": [
                 {
                   "id": "84",
                   "guid": "baf6a6c2-7442-4780-843a-ea5a321ec90b",
+                  "type": "Information",
                   "attachments": [
                     "NEEDS-84_1_Captura de pantalla 2018-10-06 a la(s) 10.35.46.png"
                   ]
@@ -147,11 +165,14 @@
           "id": "76",
           "guid": "dafd15a4-3e75-4425-99f8-f9146355c919",
           "heading": "Control",
+          "type": "Section",
           "children": [
             {
               "id": "85",
               "guid": "31dde8ba-1909-4265-9a3c-e5b7bb71536d",
-              "text": "<p>El control puede ser de tipo:</p><ol><li>Proporcional</li><li>Proporcional-Integral</li><li>Proporcional-Integral-Derivativo</li><li>Redes neuronales</li><li>Lógica difusa</li><li>Variables de estado</li><li>Algoritmos genéticos</li><li>Etc.</li></ol>"
+              "text": "<p>El control puede ser de tipo:</p><ol><li>Proporcional</li><li>Proporcional-Integral</li><li>Proporcional-Integral-Derivativo</li><li>Redes neuronales</li><li>Lógica difusa</li><li>Variables de estado</li><li>Algoritmos genéticos</li><li>Etc.</li></ol>",
+              "status": "Accepted",
+              "type": "User Story"
             }
           ]
         },
@@ -159,15 +180,19 @@
           "id": "77",
           "guid": "eb91746f-04b4-4de7-a3b1-5f6727f7f7aa",
           "heading": "OS",
+          "type": "Section",
           "children": [
             {
               "id": "86",
               "guid": "0cc29f1e-cf1b-4a43-9861-018e0888a34b",
               "text": "<p>Durante el proceso de la inicialización del sistema operativo deberá considerar la configuración de los registros definidos en la pagina 9 del documento de especificaciones</p>",
+              "status": "Accepted",
+              "type": "User Story",
               "children": [
                 {
                   "id": "87",
                   "guid": "67795360-2ebe-40cb-a291-bafb58b08201",
+                  "type": "Information",
                   "attachments": [
                     "NEEDS-87_1_Captura de pantalla 2018-10-06 a la(s) 10.59.22.png"
                   ]
@@ -182,36 +207,49 @@
       "id": "66",
       "guid": "38def9cf-9571-446a-a03a-38b983812c89",
       "heading": "Non Specific Requirements",
+      "type": "Section",
       "children": [
         {
           "id": "67",
           "guid": "80b1b869-12f1-48c1-a757-6d62298df947",
-          "text": "<p>El criterio para reconsiderar el diseño propuesto es: cuando el Throughput sea mayor al 70% del uso del CPU. En éste caso, será necesario dividir estados/tareas/subrutinas, para alcanzar el throughput propuesto.</p>"
+          "text": "<p>El criterio para reconsiderar el diseño propuesto es: cuando el Throughput sea mayor al 70% del uso del CPU. En éste caso, será necesario dividir estados/tareas/subrutinas, para alcanzar el throughput propuesto.</p>",
+          "status": "Accepted",
+          "type": "User Story"
         },
         {
           "id": "68",
           "guid": "d34ba82f-1c1d-480a-af8f-cc16788837d5",
-          "text": "<p>Las tareas podrán ser monitoreadas con una resolución de al menos 10x TIC’s. Además, deberán ser almacenadas en variables de tipo entero.</p><p>Nota: TIC - Ciclos de trabajo</p>"
+          "text": "<p>Las tareas podrán ser monitoreadas con una resolución de al menos 10x TIC’s. Además, deberán ser almacenadas en variables de tipo entero.</p><p>Nota: TIC - Ciclos de trabajo</p>",
+          "status": "Accepted",
+          "type": "User Story"
         },
         {
           "id": "69",
           "guid": "7ccfb51b-afe8-491d-b646-8764542d5459",
-          "text": "<p>El display deberá tener las siguientes características:</p><ol><li>Contraste adecuado</li><li>Buena iluminación</li><li>Uso de la tipografía especificada en el punto 1.2.2.2</li><li>Velocidad de refresco adecuado</li></ol>"
+          "text": "<p>El display deberá tener las siguientes características:</p><ol><li>Contraste adecuado</li><li>Buena iluminación</li><li>Uso de la tipografía especificada en el punto 1.2.2.2</li><li>Velocidad de refresco adecuado</li></ol>",
+          "status": "Accepted",
+          "type": "User Story"
         },
         {
           "id": "88",
           "guid": "4fbe68b3-9ee4-42e2-92bb-2a466cd494a6",
-          "text": "<p>Diagnósticos: etapas de potencia, memoria interna, botonera, ADC.</p>"
+          "text": "<p>Diagnósticos: etapas de potencia, memoria interna, botonera, ADC.</p>",
+          "status": "Accepted",
+          "type": "User Story"
         },
         {
           "id": "89",
           "guid": "f1a20696-7ceb-4f64-b11c-41076f11eed5",
-          "text": "<p>Revisión de la Complejidad a través de la CCCC, la cual deberá ser &lt;19</p>"
+          "text": "<p>Revisión de la Complejidad a través de la CCCC, la cual deberá ser &lt;19</p>",
+          "status": "Accepted",
+          "type": "User Story"
         },
         {
           "id": "90",
           "guid": "464b0658-6fe7-4dd8-b85c-bfd79c2313cf",
-          "text": "<p>Las tareas ejecutadas deberán estar dentro del mayor frame.</p>"
+          "text": "<p>Las tareas ejecutadas deberán estar dentro del mayor frame.</p>",
+          "status": "Accepted",
+          "type": "User Story"
         }
       ]
     }

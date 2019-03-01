@@ -1,15 +1,15 @@
 {
-  "id": "HSR",
-  "guid": "99d93009-6928-41c4-80d1-d14d8e42f2ce",
-  "name": "Hardware Specific Requirements",
-  "lastId": 3,
-  "createdOn": "2019-01-25T16:07:26.409Z",
+  "id": "SR",
+  "guid": "5ce0fb0a-75b6-420a-9336-2e29cd4ce945",
+  "name": "Software Requirements",
+  "lastId": 1,
+  "createdOn": "2019-01-25T17:58:57.377Z",
   "createdBy": {
     "name": "Aram",
     "email": "aram.pena.dse@uteq.edu.mx",
     "company": "UTEQ"
   },
-  "lastChangedOn": "2019-01-25T16:08:03.291Z",
+  "lastChangedOn": "2019-01-25T17:58:58.850Z",
   "lastChangedBy": {
     "name": "Aram",
     "email": "aram.pena.dse@uteq.edu.mx",
@@ -18,18 +18,7 @@
   "data": [
     {
       "id": "1",
-      "guid": "27eb0eb3-3e18-4616-b231-435c6b9a477c",
-      "heading": "Introduction"
-    },
-    {
-      "id": "2",
-      "guid": "292a1c04-bef3-4d7f-8a35-2bdebac5d17c",
-      "heading": "General Requirements"
-    },
-    {
-      "id": "3",
-      "guid": "c1fa342b-062e-487c-9ac4-f73adb6deeab",
-      "heading": "Specific Requirements"
+      "guid": "b21671bf-d300-4884-ae08-046cce571c0f"
     }
   ],
   "attributes": {

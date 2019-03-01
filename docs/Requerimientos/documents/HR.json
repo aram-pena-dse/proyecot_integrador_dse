@@ -1,0 +1,55 @@
+{
+  "id": "HR",
+  "guid": "d364ccfb-71b0-4fb8-8281-50e23b04a147",
+  "name": "Hardware Requirements",
+  "lastId": 1,
+  "createdOn": "2019-01-25T17:59:14.604Z",
+  "createdBy": {
+    "name": "Aram",
+    "email": "aram.pena.dse@uteq.edu.mx",
+    "company": "UTEQ"
+  },
+  "lastChangedOn": "2019-01-25T17:59:16.040Z",
+  "lastChangedBy": {
+    "name": "Aram",
+    "email": "aram.pena.dse@uteq.edu.mx",
+    "company": "UTEQ"
+  },
+  "data": [
+    {
+      "id": "1",
+      "guid": "19137389-d110-4c5a-8fb4-4bdb81b852c0"
+    }
+  ],
+  "attributes": {
+  },
+  "view": {
+    "columns": [
+      {
+        "columnId": "id",
+        "hidden": false,
+        "width": 65
+      },
+      {
+        "columnId": "description",
+        "hidden": false,
+        "width": 500
+      },
+      {
+        "columnId": "attributes",
+        "hidden": true,
+        "width": 300
+      },
+      {
+        "columnId": "discussion",
+        "hidden": true,
+        "width": 300
+      },
+      {
+        "columnId": "links",
+        "hidden": true,
+        "width": 300
+      }
+    ]
+  }
+}
