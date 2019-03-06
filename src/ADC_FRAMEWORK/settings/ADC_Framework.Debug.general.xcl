@@ -1,0 +1,15 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5 EWSYN.11936-RC\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5 EWSYN.11936-RC\arm\bin\armjlink2.dll" 
+
+"C:\Users\bhupendra.naphade\e2_studio\workspace1\ADC_FRAMEWORK\Debug\Exe\ADC_FRAMEWORK.out" 
+
+--plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5 EWSYN.11936-RC\arm\bin\armbat.dll" 
+
+--device_macro "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5 EWSYN.11936-RC\arm\config\debugger\Renesas\R7FS7G2x.dmac" 
+
+--flash_loader "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5 EWSYN.11936-RC\arm\config\flashloader\Renesas\FlashR7FS7G27G.board" 
+
+
+
+
